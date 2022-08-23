@@ -4,7 +4,11 @@
 
 # terminal launcher
 super + @space
-	kitty
+  tdrop -am -w 60% -y 30% -x 20% kitty   
+#	kitty
+
+super + r
+  tdrop -am -w 60% -y 30% -x 20% ranger   
 
 # program launcher
 # XF86LaunchA - windows key
