@@ -146,6 +146,15 @@ XF86AudioLowerVolume
 XF86AudioMute
   fxkeys volume mute
 
+XF86LaunchA
+  scrot ~/pictures/%Y-%m-%d-%T-screenshot.png --select --line mode=edge
+
+super + shift + s 
+  scrot '/tmp/%F_%T_$wx$h.png' --select --line mode=edge -e 'xclip -selection clipboard -target image/png -i $f'
+
+XF86PowerOff
+  kitty
+
 # All Function Keys
 #XF86MonBrightnessDown
 #XF86MonBrightnessUp
