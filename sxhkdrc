@@ -13,7 +13,7 @@ super + r
 # program launcher
 # XF86LaunchA - windows key
 XF86LaunchB
-  rofi -show drun
+  ~/.dotfiles/.config/rofi/scripts/launcher_t2
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -153,7 +153,7 @@ super + shift + s
   scrot '/tmp/%F_%T_$wx$h.png' --select --line mode=edge -e 'xclip -selection clipboard -target image/png -i $f'
 
 XF86PowerOff
-  kitty
+  ~/.dotfiles/.config/rofi/scripts/powermenu_t2
 
 # All Function Keys
 #XF86MonBrightnessDown
