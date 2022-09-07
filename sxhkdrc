@@ -155,6 +155,13 @@ super + shift + s
 XF86PowerOff
   ~/.dotfiles/.config/rofi/scripts/powermenu_t2
 
+super + c
+  rofi -show calc -modi calc -no-show-match -no-sort -theme .dotfiles/.config/rofi/launchers/type-1/style-3.rasi
+
+super + e
+  rofi -modi emoji -show emoji -theme .dotfiles/.config/rofi/launchers/type-1/style-3.rasi
+
+
 # All Function Keys
 #XF86MonBrightnessDown
 #XF86MonBrightnessUp
