@@ -132,10 +132,10 @@ XF86MonBrightnessDown
   fxkeys brightness down
 
 XF86KbdBrightnessUp
-  brightnessctl --device=smc::kbd_backlight -e s +10%
+  fxkeys kbd_brightness up 
 
 XF86KbdBrightnessDown
-  brightnessctl --device=smc::kbd_backlight -e s 10%-
+  fxkeys kbd_brightness down
 
 XF86AudioRaiseVolume
   fxkeys volume up
