@@ -152,6 +152,9 @@ XF86LaunchA
 super + shift + s 
   scrot '/tmp/%F_%T_$wx$h.png' --select --line mode=edge -e 'xclip -selection clipboard -target image/png -i $f'
 
+super + shift + ctrl + s 
+  scrot 'pictures/%F_%T_$wx$h.png' --select --line mode=edge
+
 XF86PowerOff
   ~/.dotfiles/.config/rofi/scripts/powermenu_t2
 
